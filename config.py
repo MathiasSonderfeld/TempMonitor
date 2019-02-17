@@ -12,7 +12,7 @@ hspacing = 0.25
 vspacing = 0.25
 
 #serielle Schnittstelle
-serialPort = 'COM3'
+serialPort = '/dev/ttyACM0'
 baudrate = 115200
 
 #Messumgebung
@@ -21,37 +21,37 @@ zeitspanne = 33300
 messintervall = 333
 
 #Messpunkt A0
-a0_teilerwiederstand = 10023
+a0_teilerwiederstand = 10010
 a0_koeffA = 0.001071848
 a0_koeffB = 0.000224467
 a0_koeffC = 0.000000278750965602928
 
 #Messpunkt A1
-a1_teilerwiederstand = 10023
+a1_teilerwiederstand = 9970
 a1_koeffA = 0.001071848
 a1_koeffB = 0.000224467
 a1_koeffC = 0.000000278750965602928
 
 #Messpunkt A2
-a2_teilerwiederstand = 10023
+a2_teilerwiederstand = 10000
 a2_koeffA = 0.001071848
 a2_koeffB = 0.000224467
 a2_koeffC = 0.000000278750965602928
 
 #Messpunkt A3
-a3_teilerwiederstand = 10023
+a3_teilerwiederstand = 9985
 a3_koeffA = 0.001071848
 a3_koeffB = 0.000224467
 a3_koeffC = 0.000000278750965602928
 
 #Messpunkt A4
-a4_teilerwiederstand = 10023
+a4_teilerwiederstand = 9975
 a4_koeffA = 0.001071848
 a4_koeffB = 0.000224467
 a4_koeffC = 0.000000278750965602928
 
 #Messpunkt A5
-a5_teilerwiederstand = 10023
+a5_teilerwiederstand = 9985
 a5_koeffA = 0.001071848
 a5_koeffB = 0.000224467
 a5_koeffC = 0.000000278750965602928
